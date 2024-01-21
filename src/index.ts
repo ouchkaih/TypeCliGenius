@@ -71,4 +71,24 @@ program
     }
   })
 
+program
+  .command("div <arg1> <arg2>")
+  .description("calculation the division")
+  .action((num1 , num2 )=>{
+    const number1 = parseFloat(num1);
+    const number2 = parseFloat(num2);
+
+    if(isNaN(number1) || isNaN(number2)){
+
+    }else{
+      if(number2 != 0){
+        const div = number1 / number2;
+        console.log(`div ${number1} / ${number2} is: ${div}`); 
+      }else{
+        console.log("you can't divide a number by 0")
+      }
+
+    }
+  })
+
 program.parse(process.argv);

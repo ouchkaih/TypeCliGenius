@@ -75,4 +75,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Happy coding! 🚀
 Feel free to customize this introduction further based on the features a
->>>>>>> Stashed changes

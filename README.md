@@ -34,7 +34,7 @@ pnpm start
 You can use the following example command:
 
 ```bash 
-typecligenius your-command arg1 [arg2]
+typecligenius your-command arg1 arg2
 ```
 ### Commands
 ```bash

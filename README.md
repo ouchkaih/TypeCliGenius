@@ -37,6 +37,7 @@ your-command arg1 [arg2]: Description of your command.
 ```
 
 ## Development
+
 If you want to contribute or make modifications to the code, follow these steps:
 
 # Install development dependencies

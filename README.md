@@ -2,6 +2,8 @@
 
 TypeCliGenius is a simple command line interface tool written in TypeScript.
 
+<img width="476" alt="image" src="https://github.com/ouchkaih/TypeCliGenius/assets/93255206/96d241b3-3358-4f8b-968b-f43b052e5a01">
+
 ## Installation
 
 Make sure you have Node.js and `pnpm` installed on your machine.
@@ -17,7 +19,7 @@ cd TypeCliGenius
 pnpm install
 ```
 
-### Usage
+## Usage
 Run the CLI Tool
 To run the CLI tool, use the following command:
 
@@ -25,32 +27,32 @@ To run the CLI tool, use the following command:
 pnpm start
 ```
 
-## Example Command
+### Example Command
 You can use the following example command:
 
 ```bash 
 typecligenius your-command arg1 [arg2]
 ```
-## Commands
+### Commands
 ```bash
 your-command arg1 [arg2]: Description of your command.
 ```
 
-## Development
+### Development
 
 If you want to contribute or make modifications to the code, follow these steps:
 
-# Install development dependencies
+#### Install development dependencies
 ```bash
 pnpm install --dev 
 ```
 
-# Build the TypeScript code
+#### Build the TypeScript code
 ```bash
 pnpm run build
 ```
 
-# Run the CLI tool from the build
+#### Run the CLI tool from the build
 ```bash
 pnpm start
 ```

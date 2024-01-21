@@ -4,7 +4,8 @@ TypeCliGenius is a lightweight command-line interface (CLI) tool developed in Ty
 
 
 
-<img width="476" alt="image" src="https://github.com/ouchkaih/TypeCliGenius/assets/93255206/96d241b3-3358-4f8b-968b-f43b052e5a01">
+<img width="503" alt="image" src="https://github.com/ouchkaih/TypeCliGenius/assets/93255206/e3f5a6ed-631b-4f42-9b47-723538f357fb">
+
 
 ## Installation
 

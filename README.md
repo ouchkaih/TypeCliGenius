@@ -1,6 +1,8 @@
 # TypeCliGenius
 
-TypeCliGenius is a simple command line interface tool written in TypeScript.
+TypeCliGenius is a lightweight command-line interface (CLI) tool developed in TypeScript. This tool provides a straightforward way to perform various calculations and operations directly from the command line.
+
+
 
 <img width="476" alt="image" src="https://github.com/ouchkaih/TypeCliGenius/assets/93255206/96d241b3-3358-4f8b-968b-f43b052e5a01">
 
@@ -35,7 +37,11 @@ typecligenius your-command arg1 [arg2]
 ```
 ### Commands
 ```bash
-your-command arg1 [arg2]: Description of your command.
+sum <arg1> <arg2>: Calculate the sum of two numbers.
+mul <arg1> <arg2>: Calculate the multiplication of two numbers.
+sub <arg1> <arg2>: Calculate the subtraction of two numbers.
+div <arg1> <arg2>: Calculate the division of two numbers.
+help [command]: Display help for a specific command or list all commands
 ```
 
 ### Development
@@ -59,5 +65,18 @@ pnpm start
 
 
 
+<<<<<<< Updated upstream
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+## 📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
+
+## Happy coding! 🚀
+Feel free to customize this introduction further based on the features a
+>>>>>>> Stashed changes

@@ -39,7 +39,7 @@ program
 
 program
   .command('mul <arg1> <arg2>')
-  .description('calculation multiplay two numbers')
+  .description('Calculate multiplay two numbers')
   .action((num1, num2)=>{
     const number1 = parseFloat(num1);
     const number2 = parseFloat(num2);
@@ -65,7 +65,7 @@ program
     if(isNaN(number1) || isNaN(number2)){
         console.error('Error: Please provide valid numbers.');
     }else{
-        // calculation and print the sub 
+        // Calculate and print the sub 
         const sub = number1 - number2;
         console.log(`Sub ${number1} - ${number2} is: ${sub}`); 
     }
@@ -73,7 +73,7 @@ program
 
 program
   .command("div <arg1> <arg2>")
-  .description("calculation the division")
+  .description("Calculate the division")
   .action((num1 , num2 )=>{
     const number1 = parseFloat(num1);
     const number2 = parseFloat(num2);

@@ -1,0 +1,30 @@
+{
+  "name": "typecligenius",
+  "version": "0.0.0",
+  "description": "a simple command line interface,",
+  "main": "index.js",
+  "bin": {
+    "typecligenius": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0",
+    "typecligenius": "link:"
+  }
+}

@@ -54,4 +54,21 @@ program
 
 
 
+program
+  .command('sub <arg1> <arg2>')
+  .description('calculate substration of two numbers')
+  .action((num1 , num2)=>{
+    const number1 = parseFloat(num1);
+    const number2 = parseFloat(num2);
+
+
+    if(isNaN(number1) || isNaN(number2)){
+        console.error('Error: Please provide valid numbers.');
+    }else{
+        // calculation and print the sub 
+        const sub = number1 - number2;
+        console.log(`Sub ${number1} - ${number2} is: ${sub}`); 
+    }
+  })
+
 program.parse(process.argv);
